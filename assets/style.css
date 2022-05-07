@@ -1,0 +1,88 @@
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.heading h1 {
+    color: rgb(58, 58, 58);
+    padding: 1em 0 1em 0;
+    margin: 0 0 0 0;
+    font-size: 4vw;
+    display: inline-block;
+}
+
+.heading hr {
+    width: 90%;
+}
+
+.main {
+    margin: 5% 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#sub_button {
+    background-color: #3bddb5;
+    border: none;
+    color: white;
+    padding: .8vw 1.6vw;
+    font-size: .8vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-property: background-color;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+#sub_button:hover {
+    background-color: #007e5e;
+}
+
+.main form h3 {
+    color: rgb(58, 58, 58);
+    font-size: 1.5vw;
+    display: inline-block;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#username {
+    height: 1.5vw;
+}
+
+#userData {
+    display: none;
+    margin-top: 5%;
+}
+
+#userData>h3 {
+    color: #147c62;
+}
+
+#userData>hr {
+    width: 70%;
+}
+
+#userNotFound {
+    color: rgb(209, 12, 12);
+    font-size: 2vw;
+    display: inline-block;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: none;
+}
+
+#userAvatar {
+    width: 12vw;
+    display: block;
+    height: 12vw;
+}
+
+
+/* #onlineFriends,
+#allFriends {} */
